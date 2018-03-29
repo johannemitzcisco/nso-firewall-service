@@ -1,0 +1,62 @@
+<devices xmlns="http://tail-f.com/ns/ncs">
+   <device>
+     <name>asa-0</name>
+     <address>127.0.0.1</address>
+     <port>10022</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCw8Xin/9XcEHPgfGiqhbrDB20GjXvJoRLpw9zycGBgkOGBlwvG4Yr85g1Fl4iKIgTilkbu3AmL8UcqZdMIE3b2DpUWf6IFexGMVNk3JlDxJZsh8YpUoYAfsxjm2UxOYkgAgf7KWYv6QDe5fK5anbo21cUs0FsAUeOqjTZ/+3fxyb+8MblnxaYljKbKikAWBL5kPOFt/eusOkuRs3YmutRzTf/DxKCLGvewNXRX9tr3fe0u2+Pq0ogm0tv+6qDqm4k+WHPSMCGNzm+MFior2+NxNgcZhnKf8+31uSohrv3wSLhgbtnau6ySJsEEH69apU+f2eIN6n9QUyfzJcWu6tAz root@phx2-p5-nso.phx2.cisco.com</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:asa-id="http://cisco.com/ned/asa-id">asa-id:cisco-asa</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>asa-1</name>
+     <address>127.0.0.1</address>
+     <port>10023</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCw8Xin/9XcEHPgfGiqhbrDB20GjXvJoRLpw9zycGBgkOGBlwvG4Yr85g1Fl4iKIgTilkbu3AmL8UcqZdMIE3b2DpUWf6IFexGMVNk3JlDxJZsh8YpUoYAfsxjm2UxOYkgAgf7KWYv6QDe5fK5anbo21cUs0FsAUeOqjTZ/+3fxyb+8MblnxaYljKbKikAWBL5kPOFt/eusOkuRs3YmutRzTf/DxKCLGvewNXRX9tr3fe0u2+Pq0ogm0tv+6qDqm4k+WHPSMCGNzm+MFior2+NxNgcZhnKf8+31uSohrv3wSLhgbtnau6ySJsEEH69apU+f2eIN6n9QUyfzJcWu6tAz root@phx2-p5-nso.phx2.cisco.com</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:asa-id="http://cisco.com/ned/asa-id">asa-id:cisco-asa</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>asa-2</name>
+     <address>127.0.0.1</address>
+     <port>10024</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCw8Xin/9XcEHPgfGiqhbrDB20GjXvJoRLpw9zycGBgkOGBlwvG4Yr85g1Fl4iKIgTilkbu3AmL8UcqZdMIE3b2DpUWf6IFexGMVNk3JlDxJZsh8YpUoYAfsxjm2UxOYkgAgf7KWYv6QDe5fK5anbo21cUs0FsAUeOqjTZ/+3fxyb+8MblnxaYljKbKikAWBL5kPOFt/eusOkuRs3YmutRzTf/DxKCLGvewNXRX9tr3fe0u2+Pq0ogm0tv+6qDqm4k+WHPSMCGNzm+MFior2+NxNgcZhnKf8+31uSohrv3wSLhgbtnau6ySJsEEH69apU+f2eIN6n9QUyfzJcWu6tAz root@phx2-p5-nso.phx2.cisco.com</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:asa-id="http://cisco.com/ned/asa-id">asa-id:cisco-asa</ned-id>
+       </cli>
+     </device-type>
+   </device>
+</devices>

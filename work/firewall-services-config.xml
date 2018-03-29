@@ -1,0 +1,9 @@
+<config xmlns="http://tail-f.com/ns/config/1.0">
+  <services xmlns="http://tail-f.com/ns/ncs">
+  <firewall xmlns="http://example.com/firewall-services">
+  <firewall-services-config>
+    <firewall-device-group>WEST-FIREWALLS</firewall-device-group>
+  </firewall-services-config>
+  </firewall>
+  </services>
+</config>
